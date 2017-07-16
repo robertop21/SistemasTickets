@@ -1,0 +1,6 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" 
+    Service="WCFServices.Especialidades" 
+    CodeBehind="Especialidades.svc.cs"
+    Factory="System.ServiceModel.Activation.WebServiceHostFactory"
+     %>
+
