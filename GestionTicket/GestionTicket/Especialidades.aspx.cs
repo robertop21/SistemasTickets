@@ -13,6 +13,7 @@ namespace GestionTicket
 {
     public partial class Especialidades : System.Web.UI.Page
     {
+        //Holas Amigos
         protected void Page_Load(object sender, EventArgs e)
         {
 
