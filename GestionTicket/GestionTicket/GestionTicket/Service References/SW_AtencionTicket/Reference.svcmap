@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="61ed0620-c2c5-4edc-a471-1139e73ed48a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:36485/TicketsSOA.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TicketsSOA.disco" MetadataType="Disco" ID="911435b9-c014-4f7a-814b-b13ea3165dc5" SourceId="1" SourceUrl="http://localhost:36485/TicketsSOA.svc?disco" />
+    <MetadataFile FileName="TicketsSOA.xsd" MetadataType="Schema" ID="d83289f4-c59f-4e03-bbdf-50b67f0cd29e" SourceId="1" SourceUrl="http://localhost:36485/TicketsSOA.svc?xsd=xsd2" />
+    <MetadataFile FileName="TicketsSOA1.xsd" MetadataType="Schema" ID="125b4b3d-2cfd-4113-8691-a184967b79ea" SourceId="1" SourceUrl="http://localhost:36485/TicketsSOA.svc?xsd=xsd3" />
+    <MetadataFile FileName="TicketsSOA2.xsd" MetadataType="Schema" ID="0ade7a04-3379-4dd2-b9e2-b454d3e98010" SourceId="1" SourceUrl="http://localhost:36485/TicketsSOA.svc?xsd=xsd0" />
+    <MetadataFile FileName="TicketsSOA3.xsd" MetadataType="Schema" ID="e75de5f0-97cd-4bfc-9051-a830a63d80a1" SourceId="1" SourceUrl="http://localhost:36485/TicketsSOA.svc?xsd=xsd1" />
+    <MetadataFile FileName="TicketsSOA.wsdl" MetadataType="Wsdl" ID="4aca3f8a-c1dd-47f7-9f74-a8392814f79d" SourceId="1" SourceUrl="http://localhost:36485/TicketsSOA.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
